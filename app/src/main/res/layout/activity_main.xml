@@ -9,7 +9,52 @@
 
    <LinearLayout
        android:layout_width="match_parent"
-       android:layout_height="match_parent">
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:scaleType="fitXY"
+            android:src="@drawable/ukpetra" />
+         <ImageView
+             android:layout_width="48dp"
+             android:layout_height="48dp"
+            android:src="@drawable/logopetra"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center_vertical"
+             android:layout_marginLeft="16dp"
+             android:layout_marginBottom="8dp"
+             android:background="#010293"
+             android:drawableStart="@drawable/profile"
+             android:drawablePadding="4dp"
+             android:layout_gravity="bottom"
+             android:padding="4dp"
+             android:text="PROFILE"
+             android:textColor="#FFFFFF"
+             android:drawableTint="#FFFFFF"/>
+
+      </FrameLayout>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="UNIVERSITAS KRISTEN PETRA"
+          android:layout_marginTop="32dp"
+          android:textSize="20sp"
+          android:gravity="center"
+          android:textStyle="bold"/>
+
+
+
 
    </LinearLayout>
 
