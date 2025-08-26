@@ -24,7 +24,7 @@
              android:layout_height="48dp"
             android:src="@drawable/logopetra"
             android:layout_gravity="top|right"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:layout_marginRight="8dp"/>
 
          <TextView
@@ -142,202 +142,213 @@ Wonocolo, Surabaya, Jawa Timur, \n
 
 
          </TableRow>
+
+
+
+
+
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:textSize="14sp"
-             android:layout_marginEnd="16dp"
+
              android:textStyle="bold"
+             android:layout_marginBottom="8dp"
+             android:layout_marginTop="8dp"
              android:text="REKTOR"/>
 
 
-         <TableLayout
+
+
+
+      </TableLayout>
+
+      <TableLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="16dp">
+
+         <TableRow
              android:layout_width="match_parent"
-             android:layout_height="wrap_content">
-
-            <TableRow
-                android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="1."
-                   android:layout_marginEnd="16dp"/>
+                android:text="1."
+                android:layout_marginEnd="16dp"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="drg. Tan Tjiaw Yong (1962-1966)"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="2."
-                   android:layout_marginEnd="16dp"/>
+                android:text="drg. Tan Tjiaw Yong (1962-1966)"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Letkol (Tituler) Pdt. J. W. Pourawouw (1966)"/>
+         </TableRow>
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="3."
-                   android:layout_marginEnd="16dp"/>
+                android:text="2."
+                android:layout_marginEnd="16dp"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Prof. Dr. J. E. Sahetapy, S.H., M.A. (1966–1969)"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="4."
-                   android:layout_marginEnd="16dp"/>
+                android:text="Letkol (Tituler) Pdt. J. W. Pourawouw (1966)"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Ir. O. F. Patty (1969–1984)"/>
+         </TableRow>
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="5."
-                   android:layout_marginEnd="16dp"/>
+                android:text="3."
+                android:layout_marginEnd="16dp"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Dr. Ir. Widoyo Totosucipto (1984–1988)"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="6."
-                   android:layout_marginEnd="16dp"/>
+                android:text="Prof. Dr. J. E. Sahetapy, S.H., M.A. (1966–1969)"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Drs. Wasis Sastroredjo (1988–1997)"/>
+         </TableRow>
 
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="7."
-                   android:layout_marginEnd="16dp"/>
+                android:text="4."
+                android:layout_marginEnd="16dp"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Prof. Dr. Aris Pongtuluran, dr., MPH. (1997–2001)"/>
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="8."
-                   android:layout_marginEnd="16dp"/>
+                android:text="Ir. O. F. Patty (1969–1984)"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Dr. Ir. Takim Andriono, M.E. (2001)"/>
+         </TableRow>
 
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="9."
-                   android:layout_marginEnd="16dp"/>
+                android:text="5."
+                android:layout_marginEnd="16dp"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Ir. Paulus Nugraha, M.Eng., M.Sc. (2001–2009)"/>
-
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="10."
-                   android:layout_marginEnd="16dp"/>
+                android:text="Dr. Ir. Widoyo Totosucipto (1984–1988)"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Prof. Ir. Rolly Intan, M.A.Sc., Dr.Eng. (2009–2017)"/>
+         </TableRow>
 
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp">
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="11."
-                   android:layout_marginEnd="16dp"/>
+                android:text="6."
+                android:layout_marginEnd="16dp"/>
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Prof. Dr. Ir. Djwantoro Hardjito, M.Eng. (2017-sekarang)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drs. Wasis Sastroredjo (1988–1997)"/>
 
-            </TableRow>
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7."
+                android:layout_marginEnd="16dp"/>
 
-         </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. Dr. Aris Pongtuluran, dr., MPH. (1997–2001)"/>
+
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8."
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Ir. Takim Andriono, M.E. (2001)"/>
+
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9."
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir. Paulus Nugraha, M.Eng., M.Sc. (2001–2009)"/>
+
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10."
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. Ir. Rolly Intan, M.A.Sc., Dr.Eng. (2009–2017)"/>
+
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11."
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. Dr. Ir. Djwantoro Hardjito, M.Eng. (2017-sekarang)"/>
+
+         </TableRow>
 
       </TableLayout>
 
